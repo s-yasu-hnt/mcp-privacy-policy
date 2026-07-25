@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー | SEIMEI Links 社内データ連携ツール</title>
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --fg: #1f2420;
+    --fg-muted: #55605a;
+    --accent: #2f6e5c;
+    --border: #dfe3df;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171a;
+      --fg: #eef1ee;
+      --fg-muted: #a4aca6;
+      --accent: #6fcdae;
+      --border: #2b312d;
+      --card: #1b1f1c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14171a;
+    --fg: #eef1ee;
+    --fg-muted: #a4aca6;
+    --accent: #6fcdae;
+    --border: #2b312d;
+    --card: #1b1f1c;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaf8;
+    --fg: #1f2420;
+    --fg-muted: #55605a;
+    --accent: #2f6e5c;
+    --border: #dfe3df;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.85;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+  header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 0.6rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 0.8rem;
+    text-wrap: balance;
+  }
+  .meta {
+    color: var(--fg-muted);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 2.6rem 0 0.9rem;
+    padding-top: 0.2rem;
+  }
+  h2 .num {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    margin-right: 0.5em;
+  }
+  p, li {
+    color: var(--fg);
+    font-size: 0.98rem;
+  }
+  ul {
+    padding-left: 1.3rem;
+  }
+  li {
+    margin: 0.4rem 0;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.4rem 1.6rem;
+    margin: 1rem 0;
+  }
+  .card dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.5rem 1.2rem;
+    margin: 0;
+  }
+  .card dt {
+    color: var(--fg-muted);
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  .card dd {
+    margin: 0;
+  }
+  code {
+    background: var(--border);
+    border-radius: 4px;
+    padding: 0.1em 0.4em;
+    font-size: 0.88em;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--fg-muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">PRIVACY POLICY</p>
+    <h1>プライバシーポリシー</h1>
+    <p class="meta">対象ツール：SEIMEI Links 社内データ連携ツール（Google Analytics / Search Console / Google 広告 連携）<br>最終更新日：2026年7月25日</p>
+  </header>
+
+  <p>株式会社セイメイリンクス（以下「当社」）は、クライアント企業から受託するWEBマーケティング業務のため、Google Analytics（GA4）、Google Search Console、Google 広告のデータをAPI経由で参照する社内ツールを運用しています。本ポリシーは、このツールがGoogleアカウントの認証を通じて取得する情報の取り扱いについて定めるものです。一般公開のウェブサービスではなく、当社スタッフが業務上使用する内部ツールが対象です。</p>
+
+  <h2><span class="num">01</span>運営者</h2>
+  <div class="card">
+    <dl>
+      <dt>名称</dt><dd>株式会社セイメイリンクス</dd>
+      <dt>代表者</dt><dd>代表取締役 鈴木 康弘</dd>
+      <dt>本社</dt><dd>〒431-0101 静岡県浜松市中央区雄踏町山崎3543-3</dd>
+      <dt>東京オフィス</dt><dd>〒153-0064 東京都目黒区下目黒1丁目8-1 アルコタワー7階</dd>
+      <dt>電話</dt><dd>053-596-4725（受付 9:00〜18:00）</dd>
+      <dt>連絡先</dt><dd>seimei.consulting@gmail.com</dd>
+    </dl>
+  </div>
+
+  <h2><span class="num">02</span>取得する情報とアクセス範囲</h2>
+  <p>本ツールは、当社が管理を委託されているGoogleアカウントに対して、以下のGoogle APIスコープでアクセスします。いずれも参照（読み取り）用途での利用に限定しており、本ツール側からGoogleアカウントの設定・データを変更することはありません。</p>
+  <div class="card">
+    <dl>
+      <dt><code>analytics.readonly</code></dt><dd>Google Analytics（GA4）のレポートデータ・プロパティ情報</dd>
+      <dt><code>webmasters.readonly</code></dt><dd>Search Consoleの検索パフォーマンス・サイト情報</dd>
+      <dt><code>adwords</code></dt><dd>Google 広告のキャンペーン・実績データ（本ツールでは参照のみに使用）</dd>
+    </dl>
+  </div>
+
+  <h2><span class="num">03</span>利用目的</h2>
+  <p>取得した情報は、クライアント企業から受託しているWEBマーケティング業務（広告運用・SEO・LP制作・レポーティング等）の遂行にのみ使用します。具体的には、サイトの検索流入状況の把握、広告実績の確認、施策効果の分析と、それに基づくクライアントへの報告・提案です。</p>
+
+  <h2><span class="num">04</span>保存・第三者提供</h2>
+  <p>本ツールはGoogle APIから取得したデータをその都度参照する設計で、恒久的なデータベースに蓄積することはありません。取得した情報を、業務委託契約の範囲を超えて第三者に販売・提供することはありません。分析結果をクライアント企業本人に報告する場合を除き、外部への共有は行いません。</p>
+
+  <h2><span class="num">05</span>アクセス権の確認・取り消し</h2>
+  <p>本ツールに付与したアクセス権は、Googleアカウントの<a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">セキュリティ設定（サードパーティのアクセス権）</a>からいつでも確認・取り消しできます。</p>
+
+  <h2><span class="num">06</span>お問い合わせ</h2>
+  <p>本ポリシーおよび本ツールによるデータの取り扱いに関するお問い合わせは、上記「運営者」欄の連絡先までご連絡ください。</p>
+
+  <h2><span class="num">07</span>改定</h2>
+  <p>本ポリシーの内容は、ツールの仕様変更等に応じて予告なく改定することがあります。改定後の内容は本ページに掲載した時点から効力を持ちます。</p>
+
+  <footer>
+    © 株式会社セイメイリンクス
+  </footer>
+</div>
+</body>
+</html>
